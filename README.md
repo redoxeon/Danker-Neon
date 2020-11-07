@@ -1,6 +1,6 @@
 # Danker Neon
 
-> an even dankerer, more neonier theme for anywhere you view code
+> an even dankerer, more neonier theme for VS Code
 
 I really like the colors in [Dank Neon](https://github.com/DankNeon/vscode), but found that not everything in the editor was colored. I tried contributing but the project seems slightly dead... So I'm doing it myself! 😄
 
