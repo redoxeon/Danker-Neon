@@ -1,0 +1,31 @@
+{
+  "name": "danker-neon",
+  "displayName": "Danker Neon",
+  "description": "Dank Neon, but even danker",
+  "version": "1.0.0",
+  "publisher": "redoxeon",
+  "author": {
+    "name": "Mike Harding"
+  },
+  "engines": {
+    "vscode": "^1.51.0"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#2a2d46",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Danker Neon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Danker Neon-color-theme.json"
+      }
+    ]
+  }
+}
