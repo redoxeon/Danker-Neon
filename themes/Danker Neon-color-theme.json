@@ -5,6 +5,7 @@
     "widget.shadow": "#0008",
     "icon.foreground": "#858db7",
     "checkbox.foreground": "#eff0f6",
+    "list.errorForeground": "#ff476e",
     "inputValidation.errorForeground": "#ff476e",
     "inputValidation.infoForeground": "#94bfff",
     "inputValidation.warningForeground": "#ffee7a",
@@ -25,7 +26,6 @@
     "editor.rangeHighlightBackground": "#94bfff25",
     "editor.symbolHighlightBackground": "#94bfff25",
     "editorRuler.foreground": "#eff0f6",
-    "editor.onTypeRenameBackground": "#191b2a",
     "editorCodeLens.foreground": "#858db7",
     "editorLightBulb.foreground": "#94bfff",
     "editorLightBulbAutoFix.foreground": "#94bfff",
@@ -61,7 +61,6 @@
     "editorSuggestWidget.selectedBackground": "#2a2d46",
     "editorHoverWidget.foreground": "#eff0f6",
     "editorHoverWidget.background": "#2a2d46",
-    "editorHoverWidget.statusBarBackground": "#2a2d46",
     "debugExceptionWidget.background": "#191b2a",
     "editorMarkerNavigation.background": "#191b2a",
     "editorMarkerNavigationError.background": "#191b2a",
@@ -87,11 +86,6 @@
     "panelSection.dropBackground": "#191b2a",
     "panelSectionHeader.background": "#191b2a",
     "panelSectionHeader.foreground": "#eff0f6",
-    "statusBarItem.activeBackground": "#191b2a",
-    "statusBarItem.hoverBackground": "#2a2d46",
-    "statusBarItem.prominentForeground": "#eff0f6",
-    "statusBarItem.remoteBackground": "#94bfff",
-    "statusBarItem.remoteForeground": "#191b2a",
     "menubar.selectionForeground": "#eff0f6",
     "menubar.selectionBackground": "#191b2a",
     "menu.foreground": "#eff0f6",
@@ -241,9 +235,8 @@
     "tab.inactiveBackground": "#191B2A",
     "statusBar.background": "#191B2A",
     "statusBar.foreground": "#EFF0F6",
-    "statusBar.border": "#2a2d46",
+    "statusBarItem.hoverBackground": "#3c436750",
     "statusBar.debuggingBackground": "#ac3756",
-    "statusBar.debuggingBorder": "#ff476e",
     "statusBar.debuggingForeground": "#EFF0F6",
     "statusBar.noFolderBackground": "#191B2A",
     "statusBar.noFolderForeground": "#EFF0F6",
@@ -421,7 +414,6 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#FF476E"
       }
     },
@@ -537,6 +529,7 @@
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#01f7f7"
       }
     },
